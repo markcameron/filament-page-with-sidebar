@@ -3,7 +3,7 @@
 ])
 
 <div class="mt-8">
-    <nav class="flex items-center gap-x-2 bg-white px-4 py-2 rounded-md dark:bg-gray-900 dark:ring-white/10 md:px-4 lg:px-4 overflow-x-scroll">
+    <nav class="flex items-center gap-x-2 bg-white px-4 py-2 rounded-md dark:bg-gray-900 dark:ring-white/10 md:px-4 lg:px-4 overflow-x-scroll ring-1 ring-gray-950/5">
         @if ($sidebar->getTitle() != null || $sidebar->getDescription() != null)
             <div class="me-6 hidden lg:flex flex-col">
                 <h3 class="text-base font-medium text-slate-700 dark:text-white truncate block">
